@@ -9,3 +9,4 @@ SW: Software mitigation
 BIOS: BIOS changes needed  
 MCU: Microcode mitigation  
 MCU_BIOS: Microcode mittigation should be loaded by BIOS
+HW + SW: Mitigated in hardware, but SW needs to take actions

@@ -60,9 +60,9 @@ Where a specific version is required to complete recovery, it is given in parent
 
 ## Cross-referencing the two lists
 
-The two tables describe different things about the same processors. The Affected Processors list states which mitigations apply; the TCB-R list states what must be done for attestation to succeed after a recovery event. Both are keyed on `CPUID`, so they can be joined.
+The two tables describe different aspects of the same processors. The Affected Processors List identifies applicable vulnerabilities and mitigations, while the TCB-R table identifies TCB recovery events and the processors they affect. Since both tables are keyed on CPUID, they can be correlated to determine which mitigations apply to a processor in addition to those associated with TCB-R events
 
-Correlating the two lets you determine:
+Correlating the two tables lets you determine:
 
 - Which processors are associated with a particular TCB-R event.
 - Which Security Advisories require TCB Recovery.
